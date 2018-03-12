@@ -43,24 +43,24 @@ var projects = [
   }
 ];
 
-function createProjectCard(blogObject) {
+function createProjectCard(projectObject) {
   var domString = "";
-  domString += '<div class="project card" id="' + blogObject.id + '">';
-  domString += '<img src="' + blogObject.imageUrl + '" class="project-img">';
-  domString += '<h2 class="project-title">' + blogObject.title + "</h2>";
+  domString += '<div class="project card" id="' + projectObject.id + '">';
+  domString += '<img src="' + projectObject.imageUrl + '" class="project-img">';
+  domString += '<h2 class="project-title">' + projectObject.title + "</h2>";
   domString +=
-    '<p class="project-description">' + blogObject.description + "</p>";
+    '<p class="project-description">' + projectObject.description + "</p>";
   domString +=
     '<p><a class="githublink" href="' +
-    blogObject.githubUrl +
+    projectObject.githubUrl +
     '"><img class="socialmedia" src="/img/github.png" alt="Github logo"></a></p>';
   domString += "</div>";
 
   return domString;
 }
 
-function writeToDom(blogString) {
-  document.getElementById("projects").innerHTML += blogString;
+function writeToDom(projectString) {
+  document.getElementById("projects").innerHTML += projectString;
 }
 
 function main() {
