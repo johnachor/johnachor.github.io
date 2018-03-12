@@ -115,7 +115,7 @@ article li {
 
 .job {
     display: inline-flex;
-    width: 50%;
+    max-width: 800px;
     padding: 10px;
     margin: 20px;
     border: 2px solid yellow;
@@ -152,4 +152,9 @@ footer {
     flex-wrap: wrap;
     text-align: left;
     justify-content: left;
+}
+
+.blogpost .blogdate {
+  margin: 10px;
+  
 }
