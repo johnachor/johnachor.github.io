@@ -15,7 +15,7 @@ var blogentries = [
     id: "blog03",
     title: "Teamwork and Git",
     date: "March 20, 2018",
-    content: ""
+    content: "New teams today!  I get to be team leader for the first time since I started at NSS.  I think my previous team did a fantastic job of managing our first project, and we had very little in the way of git incidents.  The theme of our team name made for some hilarious song titles on the discography page I got to create."
   }  
 ];
 
