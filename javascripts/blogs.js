@@ -16,7 +16,13 @@ var blogentries = [
     title: "Teamwork and Git",
     date: "March 20, 2018",
     content: "New teams today!  I get to be team leader for the first time since I started at NSS.  I think my previous team did a fantastic job of managing our first project, and we had very little in the way of git incidents.  The theme of our team name made for some hilarious song titles on the discography page I got to create."
-  }  
+  },
+  {
+    id: "blog04",
+    title: "ES6!",
+    date: "March 26, 2018",
+    content: "At long last, I'm allowed to use ES6 again!  A teammate taught me how to use the spread operator on Saturday and I feel like that's a huge shortcut for several array methods.  Also, I independently discovered the element.insertAdjacentHTML() method that enables me to modify the contents of an element without corrupting the other elements inside it and wiping their event listeners.  This is huge for me because that's been a thorn in my side on several projects!"
+  }
 ];
 
 function createBlogCard(blogObject) {
