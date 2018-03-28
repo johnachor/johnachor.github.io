@@ -1,4 +1,7 @@
-var blogentries = [
+/* jshint esversion: 6 */
+
+
+const blogentries = [
   {
     id: "blog01",
     title: "First couple weeks back!",
@@ -25,22 +28,33 @@ var blogentries = [
   }
 ];
 
-function createBlogCard(blogObject) {
-  var domString = "";
-  domString += '<article class="blogpost card" id="' + blogObject.id + '">';
-  domString += '<h2 class="blogtitle">' + blogObject.title + '</h2>';
-  domString += '<h5 class="blogdate">' + blogObject.date + '</h5>';
-  domString += '<p class="blogtext">' + blogObject.content + '</p></article></div>';
+const createBlogCard = (blogObject) => {
+  return `<article class="blogpost card" id="${blogObject.id}">
+            <h2 class="blogtitle">${blogObject.title}</h2>
+            <h5 class="blogdate">${blogObject.date}</h5>
+            <p class="blogtext">${blogObject.content}</p>
+          </article>`;
 
-  return domString;
-}
 
-function writeToDom(blogString) {
+};
+
+const writeToDom = (blogString) => {
   document.getElementById("blog").innerHTML += blogString;
-}
+};
 
-function main() {
-  blogentries.map(createBlogCard).reverse().forEach(writeToDom);
-}
+const main = (blogData) => {
+  let blogentries = JSON.parse(blogData.target.responseText);
+  blogentries.blogentries.map(createBlogCard).reverse().forEach(writeToDom);
+};
 
-main();
+const getBlogData = () => {
+  var request = new XMLHttpRequest();
+  request.addEventListener("load", main);
+  request.addEventListener("error", e => {
+    console.log("Error in JSON request");
+  });
+  request.open("GET", "/data/blog.json");
+  request.send();
+};
+
+getBlogData();
