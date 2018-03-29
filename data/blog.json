@@ -27,6 +27,12 @@
       "date": "March 26, 2018",
       "content":
         "At long last, I'm allowed to use ES6 again!  A teammate taught me how to use the spread operator on Saturday and I feel like that's a huge shortcut for several array methods.  Also, I independently discovered the element.insertAdjacentHTML() method that enables me to modify the contents of an element without corrupting the other elements inside it and wiping their event listeners.  This is huge for me because that's been a thorn in my side on several projects!"
+    },
+    {
+      "id": "blog05",
+      "title": "XHR",
+      "date": "March 28, 2018",
+      "content": "This week we delved into using vanilla JS XMLHttpRequest() functionality to retrieve data from a server.  This feels like a big step in the direction of dynamic applications that can adapt to data not stored locally!  However, I am very curious and a little bit bothered by the way the name of that constructor capitalizes XML and not HTTP."
     }
   ]
 }

@@ -6,7 +6,7 @@ const createProjectCard = (projectObject) => {
             <h2 class="project-title">${projectObject.title}</h2>
             <p class="project-description">${projectObject.description}</p>
             <p><a class="githublink" href="${projectObject.githubUrl}"><img class="socialmedia" src="/img/github.png" alt="Github logo"></a></p>
-            </div>`;
+          </div>`;
 };
 
 const writeToDom = (projectString) => {
