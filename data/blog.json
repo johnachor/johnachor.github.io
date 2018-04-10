@@ -33,6 +33,12 @@
       "title": "XHR",
       "date": "March 28, 2018",
       "content": "This week we delved into using vanilla JS XMLHttpRequest() functionality to retrieve data from a server.  This feels like a big step in the direction of dynamic applications that can adapt to data not stored locally!  However, I am very curious and a little bit bothered by the way the name of that constructor capitalizes XML and not HTTP."
+    },
+    {
+      "id": "blog06",
+      "title": "Bootstrap",
+      "date": "April 9, 2018",
+      "content": "Last week we started learning the Bootstrap CSS framework.  It's a huge step up from doing everything by hand, having simple common work already done for you and nice looking elements without having to write 30 lines of CSS to get them looking exactly right!  Hopefully the extra effort I've been putting into understanding CSS this time around will pay off, since I went out of my way to avoid it last time thinking I could just be the Data Guy.  I did some CSS work on my Solar System assignment that I was very proud of, and I would like to be able to present more apps that look and feel like apps instead of code exercises with minimal style going forward."
     }
   ]
 }
