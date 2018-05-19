@@ -51,6 +51,12 @@
       "title": "Task runners and Browserify - part 2",
       "date": "Week 10",
       "content": "Our assigned linting config file is giving me some interesting growing pains; it's taking a lot of getting used to always using single quotes for strings or using trailing commas in arrays or objects.  However, I think this is ultimately a good lesson because in the future when I'm working in a codebase with several other people it's likely I'll be held to certain standards and it's good to have the flexibility to be able to break out of my own patterns in order to work in with others."
+    },
+    {
+      "id": "blog09",
+      "title": "Group project #2 - Chatty",
+      "date": "Week 11",
+      "content": "Recently, we completed the second group project of this cohort, a single-page app called Chatty.  <a href='https: //github.com/nss-evening-cohort-7/chatty-coulrophobia'>Click here</a> to check it out.<br>I greatly enjoyed this project, and took it as an opportunity to work on my soft skills just as much as my coding chops.  I liked all of my teammates and everyone was very communicative and motivated, which was really encouraging.  We nailed all of the bonus objectives!  After the skeleton was done and I was looking for something to do without stepping on anyone's toes, I asked the group: 'What does no one want to do?' I ended up with the emoji feature, and I struggled for a couple days to find a library that would allow me to work emoji into the project. I ended up having to dig into the one I picked and use it in an unintended way, but it works!"
     }
   ]
 }
