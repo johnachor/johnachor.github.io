@@ -3,42 +3,48 @@
     {
       "id": "blog01",
       "title": "First couple weeks back!",
-      "date": "March 12, 2018",
+      "date": "Week 1",
       "content":
         "It's good to be back in the saddle!  A crash course through the Treehouse material has me raring to go and feeling freshly smart -- even if I feel like I have to re-teach myself how CSS flex works every time I make a new page.  Looking forward to making a bunch of new friends and learning React instead of Angular this time around.  Here's to a new start!"
     },
     {
       "id": "blog02",
       "title": "Relearning Vanilla Javascript",
-      "date": "March 14, 2018",
+      "date": "Week 3",
       "content":
         "Now that prework is completely out of the way and we have study groups and Javascript in our toolkit, I'm feeling much more at home again.  I am honestly addicted to just making JS do things with data.  This time around I want to go out of my way to work in with my teammates and write code that they can understand and that fits in with the overall project, rather than expecting everyone to adopt my philosophies."
     },
     {
       "id": "blog03",
       "title": "Teamwork and Git",
-      "date": "March 20, 2018",
+      "date": "Week 4",
       "content":
         "New teams today!  I get to be team leader for the first time since I started at NSS.  I think my previous team did a fantastic job of managing our first project, and we had very little in the way of git incidents.  The theme of our team name made for some hilarious song titles on the discography page I got to create."
     },
     {
       "id": "blog04",
       "title": "ES6!",
-      "date": "March 26, 2018",
+      "date": "Week 6",
       "content":
         "At long last, I'm allowed to use ES6 again!  A teammate taught me how to use the spread operator on Saturday and I feel like that's a huge shortcut for several array methods.  Also, I independently discovered the element.insertAdjacentHTML() method that enables me to modify the contents of an element without corrupting the other elements inside it and wiping their event listeners.  This is huge for me because that's been a thorn in my side on several projects!"
     },
     {
       "id": "blog05",
       "title": "XHR",
-      "date": "March 28, 2018",
+      "date": "Week 7",
       "content": "This week we delved into using vanilla JS XMLHttpRequest() functionality to retrieve data from a server.  This feels like a big step in the direction of dynamic applications that can adapt to data not stored locally!  However, I am very curious and a little bit bothered by the way the name of that constructor capitalizes XML and not HTTP."
     },
     {
       "id": "blog06",
       "title": "Bootstrap",
-      "date": "April 9, 2018",
+      "date": "Week 8",
       "content": "Last week we started learning the Bootstrap CSS framework.  It's a huge step up from doing everything by hand, having simple common work already done for you and nice looking elements without having to write 30 lines of CSS to get them looking exactly right!  Hopefully the extra effort I've been putting into understanding CSS this time around will pay off, since I went out of my way to avoid it last time thinking I could just be the Data Guy.  I did some CSS work on my Solar System assignment that I was very proud of, and I would like to be able to present more apps that look and feel like apps instead of code exercises with minimal style going forward."
+    },
+    {
+      "id": "blog07",
+      "title": "Task runners and Browserify",
+      "date": "Week 9",
+      "content": "This week we began using Grunt to lint our code with ESLint and bundle it into a single file with Browserify.  This gives me a lot of flexibility that I felt like I was missing before, in being able to break out functions and variables into the appropriate modules to keep code organized as well as keep variables in memory without exposing them to the window scope.  I may veer off in my free time and try to learn about other bundlers such as webpack and see how they work, because I found during a project that one of the libraries I wanted to use required webpack and I had no idea what I was doing!"
     }
   ]
 }
