@@ -63,6 +63,12 @@
       "title": "jQuery",
       "date": "Week 12",
       "content": "This week we started diving into using jQuery methods themselves, though we've been including it in projects since we started using Bootstrap.  DOM traversal, JSON retrieval, and event listeners are <i>much</i> easier to work with in jQuery, as well as manipulating multiple elements at once with a simple CSS selector rather than iterating with a loop.  This is already making me want to go back and refactor old projects to make them ten times more readable, so I look forward to being able to write code that I can look back on later and go, 'I can see what that does...'"
+    },
+    {
+      "id": "blog11",
+      "title": "Promises",
+      "date": "Week 12",
+      "content": "This week we learned about ES6 promises, which gives me a much better way to work asynchronous operations into my usual pattern of writing functions that exist purely as an in-out data transformation.  I really like the way the chaining works, sending the results of each callback function to the next one.  That makes it really easy to visualize the flow of data through a promise chain, and Promise.race() and Promise.all() giving me the ability to delay execution until at least one, or all, of the promises resolve, is a super useful functionality that I'm not sure exists in jQuery alone."
     }
   ]
 }
