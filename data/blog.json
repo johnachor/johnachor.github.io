@@ -57,6 +57,12 @@
       "title": "Group project #2 - Chatty",
       "date": "Week 11",
       "content": "Recently, we completed the second group project of this cohort, a single-page app called Chatty.  <a href='https: //github.com/nss-evening-cohort-7/chatty-coulrophobia'>Click here</a> to check it out.<br>I greatly enjoyed this project, and took it as an opportunity to work on my soft skills just as much as my coding chops.  I liked all of my teammates and everyone was very communicative and motivated, which was really encouraging.  We nailed all of the bonus objectives!  After the skeleton was done and I was looking for something to do without stepping on anyone's toes, I asked the group: 'What does no one want to do?' I ended up with the emoji feature, and I struggled for a couple days to find a library that would allow me to work emoji into the project. I ended up having to dig into the one I picked and use it in an unintended way, but it works!"
+    },
+    {
+      "id": "blog10",
+      "title": "jQuery",
+      "date": "Week 12",
+      "content": "This week we started diving into using jQuery methods themselves, though we've been including it in projects since we started using Bootstrap.  DOM traversal, JSON retrieval, and event listeners are <i>much</i> easier to work with in jQuery, as well as manipulating multiple elements at once with a simple CSS selector rather than iterating with a loop.  This is already making me want to go back and refactor old projects to make them ten times more readable, so I look forward to being able to write code that I can look back on later and go, 'I can see what that does...'"
     }
   ]
 }
