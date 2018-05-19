@@ -45,6 +45,12 @@
       "title": "Task runners and Browserify",
       "date": "Week 9",
       "content": "This week we began using Grunt to lint our code with ESLint and bundle it into a single file with Browserify.  This gives me a lot of flexibility that I felt like I was missing before, in being able to break out functions and variables into the appropriate modules to keep code organized as well as keep variables in memory without exposing them to the window scope.  I may veer off in my free time and try to learn about other bundlers such as webpack and see how they work, because I found during a project that one of the libraries I wanted to use required webpack and I had no idea what I was doing!"
+    }, 
+    {
+      "id": "blog08",
+      "title": "Task runners and Browserify - part 2",
+      "date": "Week 10",
+      "content": "Our assigned linting config file is giving me some interesting growing pains; it's taking a lot of getting used to always using single quotes for strings or using trailing commas in arrays or objects.  However, I think this is ultimately a good lesson because in the future when I'm working in a codebase with several other people it's likely I'll be held to certain standards and it's good to have the flexibility to be able to break out of my own patterns in order to work in with others."
     }
   ]
 }
