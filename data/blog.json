@@ -69,6 +69,12 @@
       "title": "Promises",
       "date": "Week 12",
       "content": "This week we learned about ES6 promises, which gives me a much better way to work asynchronous operations into my usual pattern of writing functions that exist purely as an in-out data transformation.  I really like the way the chaining works, sending the results of each callback function to the next one.  That makes it really easy to visualize the flow of data through a promise chain, and Promise.race() and Promise.all() giving me the ability to delay execution until at least one, or all, of the promises resolve, is a super useful functionality that I'm not sure exists in jQuery alone."
+    },
+    {
+      "id": "blog12",
+      "title": "APIs",
+      "date": "Week 15",
+      "content": "This week we delved into our first attempts at accessing data that we didn't create and store locally.  Since this is likely going to be a crucial part of capstones, I'm excited to get into how they work so I can start shopping around for an API that might do what I need in order to get my idea working.  The good thing is that with a few tweaks, the promises basically work the same way as grabbing our own JSON files has, and it's just a question of knowing the structure of the data you're going to get so you can work it into your functions.  I feel like now is the time when I really need to keep my head in the game, because once we start learning frameworks, that's when we'll be doing the stuff that is in really high demand right now."
     }
   ]
 }
