@@ -75,6 +75,12 @@
       "title": "APIs",
       "date": "Week 15",
       "content": "This week we delved into our first attempts at accessing data that we didn't create and store locally.  Since this is likely going to be a crucial part of capstones, I'm excited to get into how they work so I can start shopping around for an API that might do what I need in order to get my idea working.  The good thing is that with a few tweaks, the promises basically work the same way as grabbing our own JSON files has, and it's just a question of knowing the structure of the data you're going to get so you can work it into your functions.  I feel like now is the time when I really need to keep my head in the game, because once we start learning frameworks, that's when we'll be doing the stuff that is in really high demand right now."
+    },
+    {
+      "id": "blog13",
+      "title": "Firebase",
+      "date": "Week 16",
+      "content": "This week we started working with Firebase, so we can store dynamic data remotely instead of just working with static data from project creation.  I think this is the beginning of us having the ability to create apps with user specific saved data that are interactive and personalized now that we have a 'back end' that we can interface with.  I look forward to trying out Firebase with some personal projects that I've got in the back of my mind as well as homework assignments.  It's fascinating to have a concept that you don't quite know how to realize slowly becoming a fleshed out idea that you have the tools to bring into being."
     }
   ]
 }
