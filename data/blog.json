@@ -81,6 +81,12 @@
       "title": "Firebase",
       "date": "Week 16",
       "content": "This week we started working with Firebase, so we can store dynamic data remotely instead of just working with static data from project creation.  I think this is the beginning of us having the ability to create apps with user specific saved data that are interactive and personalized now that we have a 'back end' that we can interface with.  I look forward to trying out Firebase with some personal projects that I've got in the back of my mind as well as homework assignments.  It's fascinating to have a concept that you don't quite know how to realize slowly becoming a fleshed out idea that you have the tools to bring into being."
+    },
+    {
+      "id": "blog14",
+      "title": "Firebase Auth",
+      "date": "Week 17",
+      "content": "This week we learned how to do per-user authentication on Firebase so that each user can have separate data stored.  It definitely makes more sense than the previous way, where any visitor to the sites we had built saw the same data.  I also, as a little experiment, made my first Google Chrome extension, which replaces all the images on the current page with Nicolas Cage when you click the button.  Not a super useful thing to be able to do, but it did help me explore how difficult I can expect the process of making an extension to be, which will help when I start working on the other main one I'm considering."
     }
   ]
 }
