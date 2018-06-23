@@ -43,6 +43,9 @@ nav.nav-center ul {
       a {
         display: inline-block;
         color: greenyellow;
+        @media (max-width: 768px) {
+          padding: 0 10px;
+        }
       }
 
       img {

@@ -33,6 +33,9 @@ nav.nav-center ul {
     nav.nav-center ul li a {
       display: inline-block;
       color: greenyellow; }
+      @media (max-width: 768px) {
+        nav.nav-center ul li a {
+          padding: 0 10px; } }
     nav.nav-center ul li img {
       max-height: 100%; }
 
