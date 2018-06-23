@@ -26,6 +26,10 @@ body {
 .foot {
   width: 100%;
   margin: 0;
+  color: greenyellow;
+  a {
+    color: white;
+  }
 }
 
 nav.nav-center ul {
@@ -37,6 +41,7 @@ nav.nav-center ul {
 
       a {
         display: inline-block;
+        color: greenyellow;
       }
     }
 }
