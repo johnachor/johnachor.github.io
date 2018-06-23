@@ -4,7 +4,7 @@ html, body {
   margin: 0; }
 
 body {
-  background-image: url("/images/astronomy-constellation-dark-998641.jpg");
+  background-image: url("/images/background.jpg");
   background-size: cover; }
 
 .main-carousel {
@@ -12,7 +12,8 @@ body {
 
 .carousel-cell {
   height: 100%;
-  width: 100%; }
+  width: 100%;
+  overflow-y: auto; }
 
 .universe {
   height: calc(100% - 65px); }
