@@ -43,8 +43,8 @@ nav.nav-center ul {
       a {
         display: inline-block;
         color: greenyellow;
-        @media (max-width: 768px) {
-          padding: 0 10px;
+        @media (max-width: 400px) {
+          padding: 0 5px;
         }
       }
 
