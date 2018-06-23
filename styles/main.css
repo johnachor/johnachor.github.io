@@ -34,7 +34,7 @@ nav.nav-center ul {
       display: inline-block;
       color: greenyellow; }
     nav.nav-center ul li img {
-      max-height: 25px; }
+      max-height: 100%; }
 
 .cell-content {
   width: 100%; }
