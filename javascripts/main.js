@@ -3,6 +3,5 @@ $('#main-carousel').flickity({
   pageDots: false,
   wrapAround: true,
   initialIndex: 2,
+  prevNextButtons: false,
 });
-
-$('.flickity-prev-next-button').addClass('hide-on-med-and-down');
