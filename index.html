@@ -5,51 +5,58 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>John Achor | Professional History</title>
-  <link rel="stylesheet" href="main.css">
+  <title>john achor</title>
+  <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body>
-  <nav>
-    <ul>
-      <h2>
-        <li>
-          <span class="currentpage">Resume</span>
-        </li>
-        <li>
-          <a href="projects.html">Projects</a>
-        </li>
-        <li>
-          <a href="blog.html">Blog</a>
-        </li>
-        <li>
-          <a href="contact.html">Contact</a>
-        </li>
-      </h2>
-    </ul>
-  </nav>
-  <header>
-    <h1>Professional History</h1>
-  </header>
-  <div id="resume">
-    <article class="job card" id="wraps">
-      <header>
-        <h3>IT Analyst</h3>
-        <h4>Nashville Wraps, Hendersonville, TN</h4>
-        <h5>September 2014 - March 2018</h5>
-      </header>
-      <section>Perform mostly unscripted helpdesk and troubleshooting duties including network, printer, VOIP, Windows, and some OSX
-        support for an office and warehouse of approximately 120 users and a satellite location of 10 users; maintain Active
-        Directory users and computers; manage IT purchasing duties; document IT processes and tasks
 
-        <p>Led the implementation of an inventory system with asset tags and tracking in SolarWinds asset database</p>
-      </section>
-    </article>
+  <nav class="black nav-center">
+    <div class="nav-wrapper">
+      <ul id="nav-mobile">
+        <li>
+          <a href="sass.html">sass</a>
+        </li>
+        <li>
+          <a href="badges.html">components</a>
+        </li>
+        <li>
+          <a href="collapsible.html">javascript</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="universe white-text">
+
+    <div class="main-carousel" id="main-carousel">
+      <div class="carousel-cell valign-wrapper center-align" id="about-view">
+        <div class="cell-content">this is the about page</div>
+      </div>
+      <div class="carousel-cell valign-wrapper center-align" id="projects">
+        <div class="cell-content">this is the projects page.</div>
+      </div>
+      <div class="carousel-cell valign-wrapper center-align" id="blog">
+        <div class="cell-content">this is the blog page.</div>
+      </div>
+      <div class="carousel-cell valign-wrapper center-align" id="blog">
+        <div class="cell-content">this is the technologies page.</div>
+      </div>
+      
+    </div>
+
+    <div class="foot black white-text center">&copy;2018 john achor<div class="hide-on-large-only white-text directions">swipe left and right to navigate</div><div class="hide-on-med-and-down white-text directions">swipe, drag, or use arrow keys or buttons to navigate</div></div>
+
   </div>
 
-  <footer>
-    &copy; 2018 John Achor
-  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+  <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+  <script src="dist/app.js"></script>
 </body>
 
 </html>

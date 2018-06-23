@@ -1,0 +1,46 @@
+html, body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-image: url('/images/astronomy-constellation-dark-998641.jpg');
+  background-size: cover;
+}
+
+.main-carousel {
+  height: calc(100% - 45px);
+}
+
+.carousel-cell {
+  height: 100%;
+  width: 100%;
+}
+
+.universe {
+  height: calc(100% - 65px);
+
+}
+
+.foot {
+  width: 100%;
+  margin: 0;
+}
+
+nav.nav-center ul {
+    text-align: center;
+
+    li {
+      display: inline;
+      float: none;
+
+      a {
+        display: inline-block;
+      }
+    }
+}
+
+.cell-content {
+  width: 100%;
+}
