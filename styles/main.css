@@ -33,6 +33,8 @@ nav.nav-center ul {
     nav.nav-center ul li a {
       display: inline-block;
       color: greenyellow; }
+    nav.nav-center ul li img {
+      max-height: 25px; }
 
 .cell-content {
   width: 100%; }
