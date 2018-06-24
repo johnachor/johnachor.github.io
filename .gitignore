@@ -1,2 +1,4 @@
-
+/dist/
+/styles/
 /lib/node_modules
+/build/
