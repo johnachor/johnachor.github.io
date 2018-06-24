@@ -4,4 +4,5 @@ $('#main-carousel').flickity({
   wrapAround: true,
   initialIndex: 2,
   prevNextButtons: false,
+  dragThreshold: 10,
 });
