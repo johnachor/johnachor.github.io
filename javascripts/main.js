@@ -5,7 +5,9 @@ $('#main-carousel').flickity({
   pageDots: false,
   initialIndex: 2,
   prevNextButtons: false,
-  dragThreshold: 10,
+  dragThreshold: 100,
+  selectedAttraction: 0.2,
+  friction: 0.8,
 });
 
 $('nav a').on('click', function (event) {

@@ -2,7 +2,7 @@ const stringbuilder = require('./stringbuilder');
 const baseUrl = 'https://johnachor-github-personal.firebaseio.com/';
 
 const getContent = () => {
-  getBlogs().then(data => $('#blog-entries').html(data.slice(-3).reverse().map(stringbuilder.buildBlogCard)));
+  getBlogs().then(data => $('#blog-entries').html(data.reverse().map(stringbuilder.buildBlogCard)));
 };
 
 const getBlogs = () => {
