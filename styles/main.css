@@ -41,3 +41,6 @@ nav.nav-center ul {
 
 .cell-content {
   width: 100%; }
+
+.nav a img {
+  pointer-events: none; }
