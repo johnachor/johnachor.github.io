@@ -94,3 +94,22 @@ nav.nav-center ul {
   display: flex;
   flex-wrap: wrap;
 }
+
+.socialmedia {
+  max-height: 50px;
+}
+
+.contact-card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-stacked {
+  .card-action {
+    text-align: center;
+  }
+
+  .card-content p {
+    margin: 5px 0;
+  }
+}
