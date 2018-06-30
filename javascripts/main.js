@@ -6,7 +6,7 @@ $('#main-carousel').flickity({
   initialIndex: 2,
   prevNextButtons: false,
   dragThreshold: 100,
-  selectedAttraction: 0.7,
+  selectedAttraction: 0.1,
   friction: 0.5,
 });
 
