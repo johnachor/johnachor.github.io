@@ -6,8 +6,8 @@ $('#main-carousel').flickity({
   initialIndex: 2,
   prevNextButtons: false,
   dragThreshold: 100,
-  selectedAttraction: 0.2,
-  friction: 0.8,
+  selectedAttraction: 0.7,
+  friction: 0.5,
 });
 
 $('nav a').on('click', function (event) {
