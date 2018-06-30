@@ -10,7 +10,7 @@ body {
 }
 
 .main-carousel {
-  height: calc(100% - 45px);
+  height: 100%;
 }
 
 .carousel-cell {
@@ -19,7 +19,7 @@ body {
 }
 
 .universe {
-  height: calc(100% - 65px);
+  height: calc(100% - 110px);
 }
 
 .foot {
@@ -93,4 +93,23 @@ nav.nav-center ul {
 .flex {
   display: flex;
   flex-wrap: wrap;
+}
+
+.socialmedia {
+  max-height: 50px;
+}
+
+.contact-card {
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-stacked {
+  .card-action {
+    text-align: center;
+  }
+
+  .card-content p {
+    margin: 5px 0;
+  }
 }
