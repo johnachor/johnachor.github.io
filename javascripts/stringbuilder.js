@@ -14,7 +14,7 @@ const buildBlogCard = (blogEntry) => {
 
 const buildProjectCard = (project) => {
   return `
-  <div class="col s12 m6 l4">
+  <div class="col s12 m8 offset-m2 l6">
     <div class="card project-card sticky-action">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="${project.image}">
@@ -24,8 +24,7 @@ const buildProjectCard = (project) => {
           <i class="material-icons right">more_vert</i>
         </span>
         <div class="card-action">
-          <p><a href="${project.repo}">check it out on github</a></p>
-          ${project.deployed ? '<p><a href="' + project.deployed + '">see the deployed site</a></p>' : ''}
+          <p><a href="${project.repo}">see repo</a> ${project.deployed ? '<a href="' + project.deployed + '">see hosted</a></p>' : ''}
         </div>
       </div>
       <div class="card-reveal">

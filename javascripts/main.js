@@ -2,7 +2,6 @@ const firebaseApi = require('./firebaseApi');
 
 $('#main-carousel').flickity({
   setGallerySize: false,
-  pageDots: false,
   initialIndex: 2,
   prevNextButtons: false,
   dragThreshold: 100,

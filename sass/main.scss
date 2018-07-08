@@ -19,12 +19,12 @@ body {
 }
 
 .universe {
-  height: calc(100% - 110px);
+  height: calc(100% - 140px);
 }
 
 .foot {
   width: 100%;
-  margin: 0;
+  margin: 25px 0 0 0;
   color: greenyellow;
   a {
     color: white;
@@ -78,7 +78,7 @@ nav.nav-center ul {
   border-radius: 10px;
   overflow: hidden;
   color: greenyellow;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
 
   .card-action {
     text-transform: lowercase;
@@ -90,27 +90,34 @@ nav.nav-center ul {
   color: greenyellow;
 }
 
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-}
-
 .socialmedia {
   max-height: 50px;
+  max-width: 100%;
+  margin: 0 auto;
 }
 
 .contact-card {
   border-radius: 10px;
   overflow: hidden;
+
+  .card-content {
+    padding: 0;
+
+    h2 {
+      margin: 10px 0;
+    }
+  }
 }
 
 .card-stacked {
   .card-action {
     text-align: center;
+    padding: 5px 0;
   }
 
   .card-content p {
     margin: 5px 0;
+    line-height: 1.2;
   }
 }
 
@@ -125,4 +132,19 @@ nav.nav-center ul {
 
 #techs .col {
   padding-bottom: 3em;
+}
+
+.flickity-page-dots {
+
+  .dot {
+    width: 12px;
+    height: 12px;
+    opacity: 1;
+    background: transparent;
+    border: 2px solid white;
+  }
+
+  .is-selected {
+    background: white;
+  }
 }
