@@ -14,7 +14,7 @@ const buildBlogCard = (blogEntry) => {
 
 const buildProjectCard = (project) => {
   return `
-  <div class="col s12 m6 l4">
+  <div class="col s12 m6">
     <div class="card project-card sticky-action">
       <div class="card-image waves-effect waves-block waves-light">
         <img class="activator" src="${project.image}">
