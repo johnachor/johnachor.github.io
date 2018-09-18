@@ -3,10 +3,10 @@ const buildBlogCard = (blogEntry) => {
   <div class="blog-card card">
     <div class="card-content">
       <span class="card-title">${blogEntry.title.toLowerCase()}</span>
-      <p>${blogEntry.content.toLowerCase()}</p>
+      <p>${blogEntry.date.toLowerCase()}</p>
     </div>
     <div class="card-action">
-      <p>${blogEntry.date.toLowerCase()}</p>
+      <p>${blogEntry.content.toLowerCase()}</p>
     </div>
   </div>
   `;
@@ -24,8 +24,8 @@ const buildProjectCard = (project) => {
           <i class="material-icons right">more_vert</i>
         </span>
         <div class="card-action">
-          <p><a href="${project.repo}">check it out on github</a></p>
-          ${project.deployed ? '<p><a href="' + project.deployed + '">see the deployed site</a></p>' : ''}
+          <p><a href="${project.repo}" target="_blank">check it out on github</a></p>
+          ${project.deployed ? '<p><a href="' + project.deployed + '" target="_blank">see the deployed site</a></p>' : ''}
         </div>
       </div>
       <div class="card-reveal">

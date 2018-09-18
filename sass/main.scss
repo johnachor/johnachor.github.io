@@ -5,7 +5,7 @@ html, body {
 }
 
 body {
-  background-image: url('/images/background.jpg');
+  background-image: url('/images/background.png');
   background-size: cover;
 }
 
@@ -19,7 +19,7 @@ body {
 }
 
 .universe {
-  height: calc(100% - 110px);
+  height: calc(100% - 108px);
 }
 
 .foot {
@@ -29,6 +29,12 @@ body {
   a {
     color: white;
   }
+
+  background-color: rgba(0,0,0,0.8);
+}
+
+nav.nav-center {
+  background-color: rgba(0,0,0,0.8) !important;
 }
 
 nav.nav-center ul {
@@ -70,7 +76,7 @@ nav.nav-center ul {
 
 .blog-card {
   color: greenyellow;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
   border-radius: 10px;
 }
 
@@ -78,7 +84,7 @@ nav.nav-center ul {
   border-radius: 10px;
   overflow: hidden;
   color: greenyellow;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.8);
 
   .card-action {
     text-transform: lowercase;
@@ -86,8 +92,11 @@ nav.nav-center ul {
 
 }
 
-.projects-top {
+.projects-hint {
   color: greenyellow;
+  background-color: rgba(0,0,0,0.8);
+  border-radius: 10px;
+  padding: 2px 5px; 
 }
 
 .flex {
@@ -116,13 +125,27 @@ nav.nav-center ul {
 
 #welcome {
   color: greenyellow;
+
+  .welcome-hint {
+    background-color: rgba(0,0,0,0.8);
+    border-radius: 10px;
+    padding: 2px 5px;
+  }
 }
 
-#techs i {
-  font-size: 10em;
+#techs img {
+  background-color: rgba(0,0,0,0.8);
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 10rem;
   color: greenyellow;
+  width: 100%;
 }
 
 #techs .col {
   padding-bottom: 3em;
+}
+
+.techs {
+  margin-top: 20px;
 }
