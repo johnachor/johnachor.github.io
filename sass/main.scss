@@ -153,6 +153,8 @@ nav.nav-center ul {
 .circuit-head {
   height: 100%;
   max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 .landing-page {
@@ -161,5 +163,10 @@ nav.nav-center ul {
   width: 100%;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+}
+
+.project-card-holder {
+  @media only screen and (min-width: 601px) {
+    margin: auto;
+  }
 }
